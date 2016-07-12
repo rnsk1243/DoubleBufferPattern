@@ -146,6 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Comedian.h" />
+    <ClInclude Include="Stage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainProc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
